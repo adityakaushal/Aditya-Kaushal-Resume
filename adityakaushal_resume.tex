@@ -1,0 +1,174 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Aditya Kaushal}} & Email: \href{mailto:adityakaushal.india@gmail.com}{adityakaushal.india@gmail.com}\\
+  \href{https://adityakaushal.github.io}{Portfolio: adityakaushal.github.io} & Mobile:~~~+91-708-718-6115 \\
+  \href{https://github.com/adityakausha}{Github: ~~github.com/adityakaushal} \\
+  \href{https://www.linkedin.com/in/adityakaushal98}{LinkedIn~~linkedin.com/in/adityakaushal98}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  
+    \resumeSubheading
+      {\textbf{Chandigarh University}}{\textbf{Mohali, Punjab, India}}
+      {Bachelor of Engineering Computer Science (Hons. IBM Cloud Computing)}{Aug'20 - Jul' 20}
+    \resumeSubHeadingEnd
+     \begin{description}[font=$\bullet$]
+        \item {~~~}{Overall GPA: 7.44/10}
+        \vspace{-5pt}
+        \item {~~~}{Top 8\% among all performers worldwide in the Google Hash code 2019 1st round.}{~~\textbf{-Participated}}
+        \vspace{-5pt}
+        \item {~~~}{Selected for Elite batch of Top 40 students of Computer Science for scoring more than 650+ in AMCAT.}
+        \vspace{-5pt}
+        \item {~~~}{Awarded `IBM Mastery' for `\textbf{Cloud Application Developer}' and `\textbf{AI Analyst}' for scoring more than `70\%'.}
+        
+    \end{description}
+	    
+\vspace{-5pt}
+\section{Professional Experience}
+  \resumeSubheading
+      {\textbf{Aerogram (Startup)}}{\textbf{IIT Delhi Campus}}
+      {Data Engineer Intern}{Jan'20 - Jun' 20}
+    \resumeSubHeadingEnd
+     \begin{description}[font=$\bullet$]
+        \item {~~~}{Built a web dashboard to predict PM2.5 values using algorithms like Prophet, S-ARI-MA, and EMA.}
+        \vspace{-5pt}
+        \item {~~~}{Developed ETL Pipelines on Google Cloud to migrate telemetry feed from IoT-Devices to Google Cloud SQL.}
+        \vspace{-5pt}
+        \item {~~~}{Integrated the pipelines with MQTT protocols using Google Pub/Sub \& IoT core.}
+        \vspace{-5pt}
+        \item {~~~}{Analysed PM 2.5 of E-BAM and IIT-D during and before the lock down to determine the seasonality and trends.}
+        \vspace{-5pt}
+        \item {~~~}{\textbf{Technical Skills}: Python, SQL, Pandas, NumPy, SciPy, Google Cloud, HTML, CSS, JS, Flask, ETL, Tableau}
+        
+    \end{description}
+\vspace{-5pt}
+    \resumeSubheading
+      {\textbf{Hitachi (Railway System Business Division)}}{\textbf{Bengaluru, Karnataka}}
+      {Data Analyst Intern}{Mar'19 - Apr'19}
+    \resumeSubHeadingEnd
+     \begin{description}[font=$\bullet$]
+        \item {~~~}{Built a solution for extracting the arrival \& departure of Trains to compare NTES data with actual timings.}
+        \vspace{-5pt}
+        \item {~~~}{Designed a solution to automate the processes of ETL using Python}
+        \vspace{-5pt}
+        \item {~~~}{Extracted raw Data with ScraPy.}
+        \vspace{-5pt}
+        \item {~~~}{Converted the unstructured formats to Excel readable formats for data visualization through Pandas.}
+        \vspace{-5pt}
+        \item {~~~}{Summarized the Data into visualization to compare the actual arrival and departure with NTES timings.}
+        \vspace{-5pt}
+        \item {~~~}{\textbf{Technical Skills}: Python, ScraPy, Pandas, NumPy, Excel, Mat- plotlib, Sea-born}
+        
+    \end{description}
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{AirSol (Web Development, Time Series, Forecasting)}{Built a Web Dashboard using time Series modeling to predict local mapped Particulate Matter 2.5 in the vicinity of IIT Delhi Campus using various forecasting algorithms like S-ARI-MA and Prophet. Tech: Python, Google Cloud, Google Firestore, Flask, HTML, CSS, Pygal, Pandas, NumPy, JS. (Mar '20)}
+\vspace{2pt}
+\resumeSubItem{Face2Gene (Desktop Application, Computer Vision, Python)}{Built a facial recognition app to recognize the user through facial features and displayed the user name on the identified Image. Utilised Support Vectors Machine, Principal Component Analysis, and K-Fold Cross Validation. Tech: Python, Open CV (May`18)}
+\vspace{2pt}
+\resumeSubItem{Canva Sketcher (WebApp, Computer Vision)}{Build a Web app to convert sample images to black-and-white sketches using Open CV and Python. Also, utilised Gaussian Blur and  other techniques like dodging and burning Tech: Python, Flask, HTML, Open CV (Aug '20)}
+\vspace{2pt}
+\resumeSubItem{Range of incubation periods for the Covid-19 in Humans (Python, Data Analytics)}{Processed 17+GB of Dataset consisting of 200,000+ scholarly articles provided by AI2, Georgetown, NIH \& The White House to mine text related to incubation period of COVID-19. Utilised the Python script to parse JSON files to extract days and weeks of incubation and plotted a histogram for visual representation. Tech: Python (Mar'20)}
+\vspace{2pt}
+\resumeSubItem{Loan Prediction (Python, Data Analytics)}{Processed Loan Dataset to automate loan eligibility process. Analysed various loan granting factors like `Credit Score', `Dependencies', `Education', `Gender', `Income'. Utilised various Python libraries like Sea born, pandas, Numpy and matplotlib to analyse various factors using numerous visualization to predict the loan eligibility. Tech: Python, SciPy (Mar'20)}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Proficient}{~~~~~~Python, C++, JAVA, SQL, HTML, CSS, Bash(Basic)}
+	\resumeSubItem{Intermediate}{~Sci-kit, Tensor Flow, Flask, Android }
+	\resumeSubItem{Others}{~~~~~~~~~~Microsoft Azure, AWS, GCP, GIT, Oracle SQL, My SQL, MongoDb, Spark SQL, Fires base}
+	\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Additional Information}
+	\resumeSubHeadingListStart
+    \resumeSubItem{Interests} {Playing Guitar (Overall Winner and ranked 1st in Instrumental Fusion in Mélange (yearly event) for playing Bass Guitar in High school), Awarded Excellence in Instrumental Music (Played Sitar in Annual Function in High School), Track and Field sports, Sketching}
+    \resumeSubHeadingListEnd
+
+\end{document}
